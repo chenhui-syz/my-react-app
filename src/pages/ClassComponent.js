@@ -4,7 +4,7 @@ import React, {
 export default class ClassComponent extends React.Component {
     constructor(props) {
         super(props);
-        // 使⽤用state属性维护状态，在构造函数中初始化状态
+        // 使用state属性维护状态，在构造函数中初始化状态
         this.state = {
             date: new Date()
         };

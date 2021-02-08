@@ -1,12 +1,14 @@
 import React from "react";
 
-
-import ClassComponent from "./pages/ClassComponents"
+// 两种方式实现clock
+// import ClassComponent from "./pages/ClassComponents"
+import {FunctionComponent} from "./pages/FunctionComponent"
 
 function App() {
   return (
     <div className="App">
-      <ClassComponent></ClassComponent>
+      {/* <ClassComponent></ClassComponent> */}
+      <FunctionComponent></FunctionComponent>
       </div>
   );
 }
